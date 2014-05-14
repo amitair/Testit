@@ -10,7 +10,7 @@ namespace Consoletest3
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual("hello world",ConsoleApplication3.Program.CreateMessage());
+            Assert.AreEqual("hallo world",ConsoleApplication3.Program.CreateMessage());
 
         }
     }
