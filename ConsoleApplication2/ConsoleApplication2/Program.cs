@@ -12,7 +12,6 @@ namespace ConsoleApplication3
         {
             Console.WriteLine(CreateMessage());
             Console.ReadLine();
-
         }
 
         public static string CreateMessage()
