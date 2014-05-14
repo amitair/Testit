@@ -4,17 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication2
+namespace ConsoleApplication3
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine(CreateMessage());
+            Console.ReadLine();
 
         }
 
-        private static string CreateMessage()
+        public static string CreateMessage()
         {
             return "hello world";
         }
