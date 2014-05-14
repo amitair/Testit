@@ -17,7 +17,7 @@ namespace ConsoleApplication3
 
         public static string CreateMessage()
         {
-            return "hello world";
+            return "hello world!";
         }
        
     }
