@@ -11,6 +11,7 @@ namespace Consoletest3
         public void TestMethod1()
         {
             Assert.AreEqual("hello world",ConsoleApplication3.Program.CreateMessage());
+
         }
     }
 }
